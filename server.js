@@ -255,7 +255,7 @@ client.on("message", (message) => {
 setTimeout(() => {
 
   cooldown.delete(message.author.id);
-}, config.cooldownTimer);
+}, config.cooldowntimer);
   
   var commands = ['blessedimage', 'oof','help', 'ping', 'invite', 'support', 'vote', 'servers', 'botinfo', 'setstatus', 'kick', 'ban', 'softban', 'mute', 'userinfo', 'unmute', 'dbtest', 'setlogchannel', 'addmodrole', 'settings'];
   
