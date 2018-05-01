@@ -1,0 +1,9 @@
+{
+	"prefix": "m:",
+	"token": "YOUR_TOKEN_HERE",
+  "owner": "YOUR_USER_ID",
+  "DBLkey": "OPTIONAL",
+  "beta": false,
+  "cooldowntimer": 3000
+  
+}
