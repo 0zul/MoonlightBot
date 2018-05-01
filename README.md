@@ -13,12 +13,23 @@ Invite bot: https://discordapp.com/api/oauth2/authorize?client_id=31411069607188
 ```json
 
 {
-	"prefix": "m:", //Bot prefix. Any message starting with this wil trigger the bot
-	"token": "YOUR_TOKEN_HERE", //Bot token. You get this from your Discord application page
-  "owner": "YOUR_USER_ID", //Your Discord user ID, like 256460316660072448
-  "DBLkey": "OPTIONAL", //Something
+	"prefix": "m:",
+	"token": "YOUR_TOKEN_HERE",
+  "owner": "YOUR_USER_ID",
+  "DBLkey": "OPTIONAL",
   "beta": false, //Internal flag for me to check if it's running the test version or anything else
   "cooldowntimer": 3000 //Cooldown after using a command
   
 }
 ```
+**Prefix:** Bot prefix. Any message starting with this wil trigger the bot.
+
+**Token:** You get this from your Discord application page.
+
+**Owner:** Your Discord user ID, like `256460316660072448`
+
+**DBLkey:** You can ignore this if you don't want to post statistics to a site.
+
+**Beta:** Internal flag for me to check if it's running the test version or production. You can ignore this as well.
+
+**Cooldowntimer:** Interval of time between a command and another (in milliseconds)
